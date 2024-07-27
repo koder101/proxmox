@@ -10,7 +10,9 @@ apt update && sudo apt dist-upgrade -y
 # Install the Packages
 apt install xfce4 chromium lightdm -y
 
-adduser bunny
+# Prompt for username
+read -p "Enter username: " username
+adduser "$username"
 
 # Start the Desktop
 systemctl start lightdm
