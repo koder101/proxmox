@@ -8,7 +8,7 @@ echo "deb http://download.proxmox.com/debian/pve bookworm pve-no-subscription" |
 apt update && sudo apt dist-upgrade -y
 
 # Install the Packages
-apt install xfce4 chromium lightdm
+apt install xfce4 chromium lightdm -y
 
 adduser bunny
 
