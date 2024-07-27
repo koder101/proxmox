@@ -12,4 +12,5 @@ apt install xfce4 chromium lightdm -y
 
 adduser bunny
 
+# Start the Desktop
 systemctl start lightdm
