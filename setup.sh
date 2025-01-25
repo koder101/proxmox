@@ -21,7 +21,6 @@
 
 # https://community-scripts.github.io/ProxmoxVE/scripts?id=post-pve-install
 # https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/misc/post-pve-install.sh
-wget -qLO - 
 
 # Download the script from Github
 wget -qLO /tmp/post-pve-install.sh https://github.com/community-scripts/ProxmoxVE/raw/main/misc/post-pve-install.sh
